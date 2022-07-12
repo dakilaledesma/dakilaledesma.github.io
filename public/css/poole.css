@@ -280,6 +280,7 @@ tbody tr:nth-child(odd) th {
   border-color: #cdcdcd;
   border-style: solid;
   border-width: thin;
+  line-height: 1.2;
 }
 
 /*
