@@ -281,6 +281,7 @@ tbody tr:nth-child(odd) th {
   border-style: solid;
   border-width: thin;
   line-height: 1.2;
+  font-size: 15px;
 }
 
 /*
