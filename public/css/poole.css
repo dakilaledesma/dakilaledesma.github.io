@@ -275,9 +275,12 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 1rem;
   padding: 1rem;
   color: #717171;
-  background-color: #ff8f8f;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #cdcdcd;
+  border-style: solid;
+  border-width: thin;
 }
-
 
 /*
  * Container
