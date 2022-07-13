@@ -1,6 +1,6 @@
 # Setup
 title:               dax
-tagline:             'event stream page'
+tagline:             'tracker'
 description:         'Welcome to my stat-tracking page. My <a href="https://github.com/dakilaledesma" target="_blank">GitHub</a>.'
 url:                 https://dakilaledesma.github.io
 baseurl:             ''
