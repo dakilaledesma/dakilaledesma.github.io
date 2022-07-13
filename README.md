@@ -8,10 +8,13 @@ A Python script running on a free GCP instance is responsible for talking to all
 
 GitHub (through the [Events API](https://github.com/events)) and Todoist tasks are the current platforms being tracked, both combined include the vast majority of work-related tasks I do. Google Sheets is used as an archive of tasks--in case either framework completely dies/loses data. Additionally, it is also used to circumvent API restrictions; for example, GitHub only shows events in the past 90 days. Saving to Sheets allows me to save tasks (and show them on the website) past the 90 day mark.
 
-## Theme
-### Lanyon
+All events on GitHub associated with me are tracked, other than the ones that include `no-track` in their commit messages (especially commits to this repo that are done automatically by the script). Only tasks in my work-related project on Todoist is tracked.
 
-<sup>(desc taken from the original `README`)</sup>
+## Theme
+The original theme is Lanyon, though edited a little bit. The "messages" div class has been heavily changed to more closely mimic the look of GitHub's commit history page. Font families were changed to be exactly the same as GitHub for the same reason.
+
+<sup>Below is a description of Lanyon taken from the original `README` file.</sup>
+
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
