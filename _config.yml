@@ -1,22 +1,17 @@
-# Setup
-title:               dax
-tagline:             'tracker'
-description:         'A site that reports my every work-related doing, like an automatic diary. Maybe it will be useful by the time I have to enumerate everything that I have done in my Ph.D. dissertation. My <a href="https://github.com/dakilaledesma" target="_blank">GitHub</a>.'
-url:                 https://dakilaledesma.github.io
-baseurl:             ''
-paginate:            1
-permalink:           pretty
-
-# About/contact
 author:
-  name:              Dakila Ledesma
-  url:               https://github.com/dakilaledesma
-  email:             dakila@email.unc.edu
-
-# Gems
+  email: dakila@email.unc.edu
+  name: Dakila Ledesma
+  url: https://github.com/dakilaledesma
+baseurl: ''
+description: A site that reports my every work-related doing, like an automatic diary.
+  Maybe it will be useful by the time I have to enumerate everything that I have done
+  in my Ph.D. dissertation. My <a href="https://github.com/dakilaledesma" target="_blank">GitHub</a>.
+google_analytics_id: null
+paginate: 1
+permalink: pretty
 plugins:
-  - jekyll-paginate
-
-# Custom vars
-version:             0.0.3
-google_analytics_id: #UA-XXXX-Y
+- jekyll-paginate
+tagline: tracker
+title: dax
+url: https://dakilaledesma.github.io
+version: 0.0.4
