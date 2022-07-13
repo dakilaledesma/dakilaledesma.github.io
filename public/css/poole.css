@@ -285,6 +285,17 @@ tbody tr:nth-child(odd) th {
   font-weight: 600;
 }
 
+.flavor {
+  font-size:74%;
+  font-weight:500;
+}
+
+.datet {
+  font-size:75%;
+  color:#888888;
+  font-weight:400;
+}
+
 /*
  * Container
  *
