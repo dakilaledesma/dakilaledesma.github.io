@@ -12,6 +12,6 @@ permalink: pretty
 plugins:
 - jekyll-paginate
 tagline: ''
-title: 'daxtracker.'
+title: daxtracker.
 url: https://dakilaledesma.github.io
-version: 0.0.4
+version: 0.0.5
