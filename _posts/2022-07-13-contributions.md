@@ -4,4 +4,4 @@ title: Contributions
 ---
 
 ### Contributions
-<img src="https://ghchart.rshah.org/dakilaledesma" alt="Contributions calendar">
+<img style="width:100%;" src="https://ghchart.rshah.org/dakilaledesma" alt="Contributions calendar">
