@@ -14,7 +14,7 @@ All events on GitHub associated with me are tracked, other than the ones that in
 I've hosted websites before on the same GCP free-tier instances. I found that when doing so, my charges rose to the point where it was definitely not free anymore (might be my fault). I liked this setup instead as it offloads all of the security and networking to much better frameworks than what I'll manage to string together myself. Not to mention that maintenance is very minimal and the cost is free ($0.01/mo).
 
 ## Theme
-The original theme is Lanyon, though edited a little bit. The `messages` class has been heavily changed to more closely mimic the look of GitHub's commit history page. Font families were changed to be exactly the same as GitHub for the same reason.
+The original theme is [Lanyon](https://github.com/poole/lanyon), though styled to my liking. The site logo/title is styled a lot differently to the original theme, and the sidebar layout was reversed to accomodate the large left-aligned logo. The `messages` class has been heavily changed to more closely mimic the look of GitHub's commit history page. Font families for the site body were changed to be exactly the same as GitHub for the same reason. 
 
 <sup>Below is a description of Lanyon taken from the original `README` file.</sup>
 
