@@ -29,5 +29,17 @@
     <label for="sidebar-checkbox" class="sidebar-toggle" style="top: 10px;"></label>
 
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
+    
+    <!-- Thanks to https://stackoverflow.com/questions/33801650/how-do-i-refresh-a-div-content 
+         and https://stackoverflow.com/questions/14197276/how-can-i-force-window-location-to-make-an-http-request-instead-of-using-the-cac -->
+    
+    <script> 
+    $(document).ready(function(){
+    setInterval(function(){
+          window.location = "my.url/index.html?nocache=" + (new Date()).getTime();
+          $("#eventcontent").load(window.location.href + " #eventcontent" );
+    }, 120000);
+    });
+    </script>
   </body>
 </html>
