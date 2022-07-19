@@ -22,3 +22,15 @@
   border: 5px solid transparent;
   border-top-color: rgba(0,0,0,0.8);
 }
+
+.month {
+  font-size:75%;
+  color:#888888;
+  font-weight:400;
+}
+
+.wday {
+  font-size:75%;
+  color:#888888;
+  font-weight:400;
+}
