@@ -30,14 +30,13 @@
 
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
     
-    <!-- Thanks to https://stackoverflow.com/questions/33801650/how-do-i-refresh-a-div-content 
-         and https://stackoverflow.com/questions/14197276/how-can-i-force-window-location-to-make-an-http-request-instead-of-using-the-cac -->
-    
+    <!-- Thanks to https://stackoverflow.com/questions/8512630/how-can-i-use-load-to-refresh-a-div-without-duplicating-the-element -->
     <script> 
     $(document).ready(function(){
-    setInterval(function(){
-          $("#sitecontent").load(window.location.href + " #mastheadcontent" + " #eventcontent" );
-    }, 120000);
+      setInterval(function(){
+           $.get(location.href, function(data){ 
+            $('#eventcontent').empty().append( $(data).find('#eventcontent').children());
+      }, 120000);
     });
     </script>
   </body>
