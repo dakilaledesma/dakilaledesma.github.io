@@ -34,7 +34,7 @@
     <script>
     $(document).ready(function(){
       setInterval(function(){
-           $.get(location.href, function(data){
+           $.get(window.location.href, function(data){
             $('#eventcontent').empty().append( $(data).find('#eventcontent').children());
       }, 120000);
       });
