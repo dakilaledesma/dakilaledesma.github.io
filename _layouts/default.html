@@ -9,8 +9,8 @@
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
-    <div class="wrap" id="eventcontent">
-      <div class="masthead">
+    <div class="wrap" id="sitecontent">
+      <div class="masthead" id="eventcontent">
         <div class="container">
           <h3 class="masthead-title">
             <a href="{{ site.baseurl }}/" title="daxtracker.">
@@ -36,7 +36,7 @@
     <script> 
     $(document).ready(function(){
     setInterval(function(){
-          $("#eventcontent").load(window.location.href + " #eventcontent" );
+          $("#sitecontent").load(window.location.href + " #eventcontent" );
     }, 120000);
     });
     </script>
