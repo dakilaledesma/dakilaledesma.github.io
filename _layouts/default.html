@@ -21,9 +21,12 @@
         </div>
       </div>
 
-      <div class="container content" id="eventcontent">
+      <div id="eventparent">
+        <div class="container content" id="eventcontent">
         {{ content }}
+        </div>
       </div>
+
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle" style="top: 10px;"></label>
@@ -34,9 +37,7 @@
     <script>
     $(document).ready(function(){
       setInterval(function(){
-           $.get(window.location.href, function(data){
-            $('#eventcontent').empty().append( $(data).find('#eventcontent').children());
-      }, 120000);
+           $("#eventparent").load(location.href+ ' #eventcontent');
       });
     });
     </script>
