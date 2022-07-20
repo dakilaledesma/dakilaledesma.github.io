@@ -29,14 +29,15 @@
     <label for="sidebar-checkbox" class="sidebar-toggle" style="top: 10px;"></label>
 
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
-    
+
     <!-- Thanks to https://stackoverflow.com/questions/8512630/how-can-i-use-load-to-refresh-a-div-without-duplicating-the-element -->
-    <script> 
+    <script>
     $(document).ready(function(){
       setInterval(function(){
-           $.get(location.href, function(data){ 
+           $.get(location.href, function(data){
             $('#eventcontent').empty().append( $(data).find('#eventcontent').children());
       }, 120000);
+      });
     });
     </script>
   </body>
