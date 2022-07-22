@@ -1,3 +1,4 @@
+@no-track
 ---
 layout: post
 title: Status
