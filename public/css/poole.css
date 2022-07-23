@@ -318,6 +318,12 @@ tbody tr:nth-child(odd) th {
   margin-left: 0.3rem;
 }
 
+.dateitems {
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 0.3rem;
+}
+
 .desc {
   font-size:80%;
   color:#484848;
