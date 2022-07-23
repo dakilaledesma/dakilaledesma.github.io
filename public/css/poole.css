@@ -310,6 +310,12 @@ tbody tr:nth-child(odd) th {
   font-weight:400;
 }
 
+.datems {
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+}
+
 .desc {
   font-size:80%;
   color:#484848;
