@@ -1,5 +1,5 @@
 # daxtracker.
-A site that reports my every work-related doing, like an automatic diary. Maybe it will be useful by the time I have to enumerate everything that I have done in my Ph.D. dissertation. 
+A site that reports my every work-related doing, like an automatic diary. 
 
 ## How does it work?
 Like any other github.io website, when changes are pushed to the associated repository (such as this one), GitHub Pages will use Jekyll to build the website automatically.
