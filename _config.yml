@@ -4,8 +4,7 @@ author:
   url: https://github.com/dakilaledesma
 baseurl: ''
 description: A site that reports my every work-related doing, like an automatic diary.
-  Maybe it will be useful by the time I have to enumerate everything that I have done
-  in my Ph.D. dissertation. My <a href="https://github.com/dakilaledesma" target="_blank">GitHub</a>.
+  My <a href="https://github.com/dakilaledesma" target="_blank">GitHub</a>.
 google_analytics_id: null
 paginate: 3
 permalink: pretty
