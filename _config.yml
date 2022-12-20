@@ -4,7 +4,9 @@ author:
   url: https://github.com/dakilaledesma
 baseurl: ''
 description: A site that reports my every work-related doing, like an automatic diary.
-  My <a href="https://github.com/dakilaledesma" target="_blank">GitHub</a>.
+  My <a href="https://github.com/dakilaledesma" target="_blank">GitHub</a>. 
+  <a href="https://github.com/dakilaledesma/dakilaledesma.github.io" target="_blank">GitHub Pages code</a> 
+  and <a href="https://github.com/dakilaledesma/daxtracker." target="_blank">server-side code</a>.
 google_analytics_id: null
 paginate: 3
 permalink: pretty
