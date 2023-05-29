@@ -16,6 +16,6 @@ More<br>
 Currently tracking <b>1188</b> contributions</span>
 
 ### Workouts
-<img style="width:100%;" src="/public/heatmap.png?{{ site.version }}" alt="Contributions calendar">
+<img style="width:100%;" src="/public/workout_heatmap.png?{{ site.version }}" alt="Contributions calendar">
 <span class="datet" style="font-size: 60%; text-align: right; display: block;">
 (Workout data is still a WIP)</span>
