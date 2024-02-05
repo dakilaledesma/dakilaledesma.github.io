@@ -13,4 +13,5 @@ Less
 <span style="color: #11803d;">■</span>
 <span style="color: #00441b;">■</span>
 More<br>
-Currently tracking <b>1967</b> contributions</span>
+Currently tracking <b>1968</b> contributions</span>
+<br>(daxtracker. was broken from August 2023 to January 2024, these have been removed from the heatmap)
