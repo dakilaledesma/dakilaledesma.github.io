@@ -14,5 +14,5 @@ Less
 <span style="color: #00441b;">■</span>
 More<br>
 Currently tracking <b>1982</b> contributions
-<br>(daxtracker. was broken from August 2023 to January 2024, these have been removed from the heatmap)</span>
+<br>*daxtracker. was broken from 08/2023 to 12/2023, these have been removed from the heatmap</span>
 
