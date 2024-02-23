@@ -1,11 +1,5 @@
-@no-track
----
-layout: post
-title: Status
----
-
 ### Status
 <div class="messagew">
-        <span class="flavor"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/warning_26a0-fe0f.png" height="11" style="display: inline; margin: 0rem"> Delays</span><br>
-        While timestamps are true to life, GitHub events may be delayed by more than 2 hours after completion due to <a href="https://github.community/t/github-events-api-recent-latency/254158">API latencies.</a>
+        <span class="flavor"><img src="https://em-content.zobj.net/thumbs/120/apple/354/warning_26a0-fe0f.png" height="11" style="display: inline; margin: 0rem">Industry tasks partially censored</span><br>
+        For industry-related tasks, such as ones under BCBS-T where development information is not public, "indicative" words are censored to prevent leaking of private information.
 </div>
